@@ -1,0 +1,701 @@
+body {
+    margin: 0;
+    font-family: 'poppins', 'san-serif';
+    
+}
+/*-------------------- THIS IS HEADER ----------------------------------*/
+
+.subheader{
+    height: 35px;
+    background-color: white;
+    border-bottom: 1px solid rgb(190, 183, 183);
+    display: flex;
+    flex-direction: row;
+
+}
+.subheaderLeftIcons{
+    position: relative;
+    left: 132px;
+    width: 233px;
+    height: 100%;
+}
+.subheaderLeftIcons1{
+    width: 32px;
+    height: 16px;
+    background-image: url(https://www.asus.com/media/Odin/images/header/ROG_normal.svg);
+    display: inline-block;
+    position: top;
+    position: relative;
+    top: 9px;
+    left: 12px;
+   
+
+}
+.subheaderLeftIcons1:hover{
+    cursor: pointer;
+    width: 32px;
+    height: 16px;
+    background-image: url(https://www.asus.com/media/Odin/images/header/ROG_hover.svg);
+    display: inline-block;
+}
+.subheaderLeftIconsborder{
+    width: 11px;
+    height: 17px;
+    display: inline-block;
+    position: top;
+    position: relative;
+    top: 9px;
+    left: 12px;
+    border-right: 1px solid gray;
+
+}
+
+
+
+.subheaderLeftIcons2{
+
+    width: 45px;
+    height: 16px;
+    background-image: url(https://www.asus.com/media/Odin/images/header/ProArt_normal.svg);
+    display: inline-block;
+    position: top;
+    position: relative;
+    top: 9px;
+    left: 12px;
+}
+.subheaderLeftIcons2:hover{
+    cursor: pointer;
+    width: 45px;
+    height: 16px;
+    background-image: url(https://www.asus.com/media/Odin/images/header/ProArt_hover.svg);
+    display: inline-block;
+}
+
+
+
+.subheaderLeftIcons3{
+
+    width: 70px;
+    height: 16px;
+    background-image: url(https://www.asus.com/media/Odin/images/header/IoT_normal.svg);
+    display: inline-block;
+    position: top;
+    position: relative;
+    top: 9px;
+    left: 12px;
+}
+.subheaderLeftIcons3:hover{
+    cursor: pointer;
+    width: 70px;
+    height: 16px;
+    background-image: url(https://www.asus.com/media/Odin/images/header/IoT_hover.svg);
+    display: inline-block;
+}
+
+
+.dropbtn {
+    background-color: white;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 1089px;
+    width: 65px;
+    height: 91%;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: relative;
+    top: 5px;
+    right: 156px;
+    background-color: #f1f1f1;
+    width: 220px;
+}
+  
+  .dropdown-content a {
+    font-family: "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 1;
+  }
+  .dropdown-content a:hover {
+     
+    color: rgb(37, 69, 233);
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover{border-bottom: 3px solid black;}
+  .dropdown:hover .dropdown-content {display: block; border-bottom: 1px solid black;}
+  
+  .dropdown button{color: #808080;}
+  .dropdown button:hover {color:black}
+
+
+
+
+
+
+
+
+
+
+.mainheader{
+    position:sticky;
+    top: 0;
+    z-index: -1;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgb(190, 183, 183);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.mainheader h6{
+    color: #090909;
+    margin: 0;
+    text-align:end;
+    justify-content: center;
+    font-family: "TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    align-items: center;
+    padding-top: 10px;
+}
+.mainheadericons{
+    position: relative;
+    left: 151px;
+    top: 0px;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.asuslogo{
+    position: relative;
+    top: 16px;
+    left: 132px;
+    cursor: pointer;
+    width: 77px;
+    height: 16px;
+    background-image: url(https://dlcdnimgs.asus.com/images/logo/logo-001.svg);
+    display: inline-block;
+   
+
+}
+.asuslogo:hover{
+    cursor: pointer;
+    width: 77px;
+    height: 16px;
+    background-image: url(https://dlcdnimgs.asus.com/images/logo/logo-blue001.svg);
+    display: inline-block;
+}
+
+.mobile{
+    height: 100%;
+    width: 50px;}
+
+.mobile:hover{cursor:pointer;}
+.laptops:hover{cursor:pointer;}
+.desktop:hover{cursor:pointer;}
+.motherboard:hover{cursor:pointer;}
+.networking:hover{cursor:pointer;}
+.accessories:hover{cursor:pointer;}
+
+
+.mainheadericonsright{
+    position: relative;
+    float: left;
+    width: 283px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 219px;
+}
+
+ 
+
+
+
+.mainheadersearchicons{
+    position: relative;
+    float: left;
+    width: 96px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    left: 219px;
+    padding-top: 12px;
+}
+.mainheadersearchicons i{
+    color: gray;
+}
+.mainheadersearchicons i:hover{
+    color: black;
+    cursor:pointer
+}
+
+
+
+/*----------------------------- THIS IS BODY ----------------------------------*/
+
+.asusaccount{
+    height: 50px;
+    background-color: #025EC5;
+    }
+.asusaccount h6{
+    font-family:"TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+
+
+}
+
+.body1slide{
+    height: 670px;
+    background-color: #cd7b1e;
+}
+.body1slide img{
+    width: 1520px;
+    height: 670px;
+}
+.belowslide{
+    margin-top: 10px;
+    height: 670px;
+    background-color: #7672e7;
+}
+.belowslide img{
+    width: 1520px;
+    height: 670px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.fourgrid1{
+    height: 1198px;
+    width: 100%;
+
+}
+
+.gridimage{
+    padding: 7px;
+    max-width: 100%;
+    max-height: 50%;
+}
+.firstexploremore{
+    position: absolute;
+    height: 72px;
+    position: absolute;
+    left: 322px;
+    margin-top: 79px;
+    font-size: 28px;
+    color: #808080;
+    font-family: "TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+.firstexploremore:hover{
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+
+.secondexploremore{
+    position: absolute;
+    height: 72px;
+    position: absolute;
+    left: 1108px;
+    margin-top: 79px;
+    font-size: 28px;
+    color: #808080;
+    font-family: "TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+.secondexploremore:hover{
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+
+.thirdexploremore{
+    position: absolute;
+    height: 72px;
+    position: absolute;
+    left: 322px;
+    margin-top: 662px;
+    font-size: 28px;
+    color: #808080;
+    font-family: "TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+.thirdexploremore:hover{
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+.forthexploremore{
+    position: absolute;
+    height: 72px;
+    position: absolute;
+    left: 1108px;
+    margin-top: 662px;
+    font-size: 28px;
+    color: #808080;
+    font-family: "TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+.forthexploremore:hover{
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+
+.campainsandeventsmain{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+}
+.campainsandevents{
+    height: 150px;
+    width: 510px;
+    position: absolute;
+    display: flex;
+   justify-content: center;
+}
+.campainsandevents h1{
+    margin: 0;
+    padding-top: 60px;
+    font-size: 42px;
+    font-weight: 500;
+    font-family: "TT Norms W05 Medium", "Myriad W08 Semibold", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+.campainsandeventsSeeAll{
+    position: absolute;
+    height: 28px;
+    width: 80px;
+    justify-content: center;
+    padding-top: 114px;
+}
+.campainsandeventsSeeAll h3{
+    font-weight: 200;
+    font-weight: 400;
+    color: #006ce1;
+    margin: 0;
+    font-size: 18px;
+    font-family: "TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+
+}
+.campainsandeventsSeeAll:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #006ce1;
+}
+ 
+.zoomin{
+    height: 435px;
+    width: 1238px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 138px;
+    justify-content: space-evenly;
+   
+
+}
+.zoomin1{
+    height: 320px;
+    width: 405px;
+    background-color: #006ce1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;    
+}
+.zoomin1:hover{
+    cursor: pointer; 
+}
+.zoomin1heading h2{
+    margin: 0;
+    display: flex;
+    padding: 20px;
+    color: #808080;
+    font-weight: 400;
+    justify-content: center; 
+    font-size: 17px;
+    line-height: 20.4px;
+    font-family: "TT Norms W05 Regular", "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+
+
+
+}
+
+
+
+
+
+.zoomin1img{
+    height: 252px;
+    width: 405px;
+    overflow: hidden; 
+    background-color: #cd7b1e;  
+   
+}
+.zoomin1img img{
+    width: 405px;
+    height: 252px;
+    transition:transform .5s ease;
+    
+}
+.zoomin1img:hover{
+    transform: scale(1.1);
+    
+}
+
+.zoomin1heading{
+    height: 68px;
+    width: 100%;
+    background-color: #F5F5F5;
+    
+}
+.zoomin2{
+    height: 320px;
+    width: 405px;
+    background-color: #006ce1;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+.zoomin3{
+    height: 320px;
+    width: 405px;
+    background-color: #006ce1;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.hotdeals{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-family: "TT Norms W05 Medium", "Myriad W08 Semibold", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+
+}
+.hotdeals h1{ margin: 0;font-weight: 500;}
+
+.hotdealsicons{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+.hotdealsiconssub{
+    width:630px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+
+
+}
+
+.hotdealsicons1{
+    height: 120px;
+    width: 80px;
+    
+}
+.hotdealsicons1:hover{border-bottom: 4px solid black;cursor: pointer;}
+.hotdealsicons2{
+    height: 120px;
+    width: 101px;
+}
+.hotdealsicons2:hover{border-bottom: 4px solid black;cursor: pointer;}
+.hotdealsicons3{
+    height: 120px;
+    width: 109px;
+}
+.hotdealsicons3:hover{border-bottom: 4px solid black;cursor: pointer;}
+.hotdealsicons4{
+    height: 120px;
+    width: 122px;
+}
+.hotdealsicons4:hover{border-bottom: 4px solid black;cursor: pointer;}
+.footer{
+    margin-top: 4px;
+    height: 714px;
+    width: 100%;
+    background-color: #F5F5F5
+}
+
+.footerall{
+    width: 100%;
+    height: 468px;
+    display: flex;
+    font-family: "Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-size: 13px;
+ 
+}
+
+.shipping{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid rgb(215, 212, 212);
+}
+
+.shipping img{
+    width: 1555px;
+    height: 68px;
+    margin-top: 22px;
+}
+.tnc{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.tnc1{
+    margin-left: 147px;
+    margin-top: 22px;
+    height: 36px;
+    width: 488px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: space-between;
+    
+}
+.tnc1 h6{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    font-family:"Myriad W08 Regular", "Segoe UI", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+.termsofuse{
+    width: 118px;
+    height: 30px;
+}
+.termsofuse:hover{
+    cursor: pointer;
+}
+
+.tncborder1{
+    height: 12px;
+    width: 1px;
+    border-right: 1px solid gray;
+    margin-top: 4px;
+}
+.privacy{
+    width: 82px;
+    height: 30px;
+}
+.privacy:hover{
+    cursor: pointer;
+}
+.tncborder1{
+    height: 12px;
+    width: 1px;
+    border-right: 1px solid gray;
+    margin-top: 4px;
+}
+
+.copyright{
+    width: 270px;
+    height: 30px;
+
+}
+
+.tnc2{
+    margin-top: 40px;
+    margin-left: 1320px;
+    height: 26px;
+    width: 118px;
+    float: left;
+}
+.tnc2 img{
+    height: 21px;
+    width: 97px;
+}
+.tnc2 img:hover{cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+.footerall th{text-align: left;}
+.footerall td:hover{cursor: pointer;}
+table, th, td {
+
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socailmedia{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid rgb(175, 172, 172);
+}
+.socailmediaicons{
+    width: 460px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.socailmediaicons:hover{cursor: pointer;}
+
+.socailmedia img{
+    height: 40px;
+    width: 40px;
+    
+}
